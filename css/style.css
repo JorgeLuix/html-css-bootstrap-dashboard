@@ -1,0 +1,22 @@
+.debug{
+    border: 1px solid black;
+}
+.wrapper {
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    overflow: hidden;
+}
+header {
+    height: 80px;
+}
+#nav_bar {
+    height: 100%;
+    width: 150px;
+    flex-shrink: 0;
+   
+}
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
