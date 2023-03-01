@@ -20,3 +20,6 @@ main {
     overflow-y: auto;
     height: 100%;
 }
+.avatar-img{
+    width: 30px;
+}
